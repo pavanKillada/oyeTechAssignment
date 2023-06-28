@@ -1,61 +1,13 @@
-In this project, let's build a **Social Buttons** by applying the concepts we have learned till now.
+In this Assignment all the given questions were answered in different files of AssignmentFiles folder.
 
-### Refer to the image below:
+The database.db is a database with tables customer, students, subjects and subject_student_mapping.
 
-<br/>
-<div style="text-align: center;">
-<img src="https://assets.ccbp.in/frontend/content/react-js/social-buttons-lg-output.png" alt="social-buttons-output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
+The file Question1And2.js Covers the solution for assignment problem 1 and 2.
 
-### Design Files
+The file Question3.js covers the solution for assignment problem 3. This file uses sqlite for update and replace since my laptop couldn't connect to the mysql and due to insufficient time I used sqlite. Which updates or replaces the customer in the student table. Here student table is identical to the customer table in the problem statement.
 
-<details>
-<summary>Click to view</summary>
+The file Question4.js covers the solution for assignment problem 4, which creates a new object by merging all the properties of other sample objects.
 
-- [Extra Small (Size < 576px), Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/social-buttons-sm-output-v2.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](https://assets.ccbp.in/frontend/content/react-js/social-buttons-lg-output.png)
-</details>
+The file Question5.js covers the solution for assignment problem 5, which creates promise on the finalCallBack function and logs the output in the console successfully.
 
-### Completion Instructions
-
-<details>
-<summary>Implementation Files</summary>
-<br/>
-
-Use these files to complete the implementation:
-
-- `index.js`
-- `index.css`
-</details>
-
-### Resources
-
-<details>
-<summary>Image URLs</summary>
-
-- [https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png](https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png)
-</details>
-
-<details>
-<summary>Colors</summary>
-
-<br/>
-
-<div style="background-color: #eab308; width: 150px; padding: 10px; color: white">Hex: #eab308</div>
-<div style="background-color: #ffffff; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
-<div style="background-color: #1d4ed8; width: 150px; padding: 10px; color: white">Hex: #1d4ed8</div>
-<div style="background-color: #323f4b; width: 150px; padding: 10px; color: white">Hex: #323f4b</div>
-</details>
-
-<details>
-<summary>Font-families</summary>
-
-- Roboto
-- Bree Serif
-</details>
-
-> ### _Things to Keep in Mind_
->
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+The file Question6.py covers the solution for assignment problem 6. Function that takes an array of random integers and finds the first missing integer from an array.
