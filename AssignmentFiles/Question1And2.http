@@ -1,0 +1,12 @@
+POST http://localhost:3000/customer/
+Content-Type: application/json
+
+{
+    "phone_no": 9030960865,
+    "name": "pavan",
+    "email": "killadapavankumar@gmail.com"
+}
+###
+
+get http://localhost:3000/student_subjects/
+###
