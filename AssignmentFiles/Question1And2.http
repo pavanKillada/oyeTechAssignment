@@ -7,3 +7,6 @@ Content-Type: application/json
     "email": "killadapavankumar@gmail.com"
 }
 ###
+
+get http://localhost:3000/student_subjects/
+###

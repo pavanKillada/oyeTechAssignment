@@ -49,3 +49,19 @@ app.post("/customer/", async (request, response) => {
     response.send("customer successfully added");
   }
 });
+
+app.get("/student_subjects/", async (request, response) => {
+  const getQuery = `SELECT
+            students.student_id,
+            students.name AS name,
+            GROUP_CONCAT(subjects.subject_name, ', ') AS subjects
+        FROM
+            (students
+        JOIN subject_student_mapping ON students.student_id = subject_student_mapping.student_id) as T
+        JOIN subjects ON T.subject_id = subjects.subject_id
+        GROUP BY
+            students.student_id,
+            students.name;`;
+  const dbResponse = await db.all(getQuery);
+  response.send(dbResponse);
+});
